@@ -1,1 +1,168 @@
-h
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARCTURUS - AI Learning Assistant</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff0f7;
+      color: #35152f;
+      min-height: 100vh;
+    }
+
+    header {
+      background: white;
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 12px #35152f12;
+    }
+
+    .logo {
+      color: #e62991;
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .menu {
+      color: #7954c7;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 20px 35px;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: #e62991;
+    }
+
+    .hero p {
+      color: #76566e;
+      line-height: 1.7;
+      max-width: 520px;
+      margin: auto;
+    }
+
+    .chat {
+      background: white;
+      max-width: 650px;
+      margin: 20px auto 60px;
+      padding: 22px;
+      border-radius: 20px;
+      box-shadow: 0 10px 35px #e6299115;
+      width: calc(100% - 30px);
+    }
+
+    .chat h2 {
+      color: #7954c7;
+      font-size: 19px;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 120px;
+      padding: 15px;
+      border: 1px solid #edc4dc;
+      border-radius: 12px;
+      font-size: 16px;
+      resize: vertical;
+      outline: none;
+    }
+
+    textarea:focus {
+      border-color: #e62991;
+    }
+
+    .ask {
+      width: 100%;
+      margin-top: 14px;
+      padding: 15px;
+      border: none;
+      border-radius: 12px;
+      background: #e62991;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 14px;
+      max-width: 750px;
+      margin: 0 auto 50px;
+      padding: 0 15px;
+    }
+
+    .feature {
+      background: white;
+      padding: 22px 12px;
+      text-align: center;
+      border-radius: 15px;
+      color: #7954c7;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #99758e;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">ARCTURUS ✦</div>
+    <div class="menu">AI EDUCATION</div>
+  </header>
+
+  <section class="hero">
+    <h1>Learn smarter.<br><span>Ask freely.</span></h1>
+    <p>
+      Your AI learning companion for Biology, Chemistry,
+      Mathematics and more. Ask questions and understand
+      difficult topics step by step.
+    </p>
+  </section>
+
+  <section class="chat">
+    <h2>What would you like to learn today?</h2>
+    <textarea placeholder="Ask ARCTURUS an educational question..."></textarea>
+    <button class="ask">Ask ARCTURUS ✨</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">🧬 Biology</div>
+    <div class="feature">⚗️ Chemistry</div>
+    <div class="feature">📐 Mathematics</div>
+    <div class="feature">📸 Snap & Solve</div>
+    <div class="feature">🎙️ Voice Tutor</div>
+    <div class="feature">📚 Study Notes</div>
+  </section>
+
+  <footer>
+    © 2026 ARCTURUS. Learn smarter, every day.
+  </footer>
+</body>
+</html>
